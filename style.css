@@ -87,3 +87,15 @@ p {
 .shadow {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
+@media (max-width: 576px) {
+  img {
+    display: none;
+  }
+  h3 {
+    font-size: 75px;
+  }
+  h1 {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+}
