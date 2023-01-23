@@ -14,5 +14,24 @@ img {
 
 .contactlink {
   background-color: #026c62;
-  var(--box-shadow);
+  box-shadow: var(--box-shadow);
+}
+.designer-link {
+  background-color: #026c6275;
+  width: max-content;
+}
+.coder-link {
+  background-color: #faca2a6b;
+}
+.designer-heading {
+  font-size: 50px;
+  text-align: center;
+}
+.coder-heading {
+  font-size: 50px;
+  text-align: center;
+}
+p {
+  font-size: 15px;
+  text-align: center;
 }
