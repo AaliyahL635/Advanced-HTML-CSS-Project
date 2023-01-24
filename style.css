@@ -1,11 +1,11 @@
 :root {
   --primary-color: #026c62;
-  --secondary-color: #f5f2fe;
+  --primary-text: League Spartan;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 35px;
 }
 
 img {
@@ -21,17 +21,44 @@ img {
   width: max-content;
 }
 .coder-link {
-  background-color: #faca2a6b;
+  background-color: rgba(250, 202, 42, 0.59);
+  width: max-content;
 }
 .designer-heading {
-  font-size: 50px;
+  font-size: 70px;
   text-align: center;
+  font-family: var(--primary-text);
 }
 .coder-heading {
-  font-size: 50px;
+  font-size: 70px;
   text-align: center;
+  font-family: var(--primary-text);
 }
+.contactlink:hover {
+  text-decoration: none;
+}
+
 p {
-  font-size: 15px;
+  font-size: 20px;
   text-align: center;
+  color: white;
+  font-family: var(--primary-text);
+}
+
+@media (max-width: 600px) {
+  h1 {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 0px;
+  }
+  img {
+    display: none;
+  }
+  .contactlink {
+    display: block;
+    text-align: center;
+  }
+  .designer-link {
+    margin-top: 30px;
+  }
 }
