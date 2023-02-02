@@ -20,7 +20,7 @@ h3 {
 
 h4 {
   font-family: var(--primary-text);
-  font-size: 25px;
+  font-size: 22px;
 }
 
 h5 {
@@ -33,6 +33,21 @@ img {
   height: 700px;
 }
 
+.project-text {
+  color: black;
+  text-align: left;
+}
+.primary-link {
+  background-color: #026c62;
+  box-shadow: var(--box-shadow);
+}
+
+.work-heading {
+  font-family: var(--primary-text);
+  font-weight: 700;
+  font-size: 80px;
+  text-align: center;
+}
 .envelope {
   font-size: 25px;
   text-align: end;
@@ -48,7 +63,7 @@ img {
   text-align: left;
 }
 .contactme {
-  font-size: 75px;
+  font-size: 65px;
   font-family: var(--primary-text);
   font-weight: 800;
 }
@@ -67,7 +82,7 @@ img {
   width: max-content;
 }
 .coder-link {
-  background-color: rgba(250, 202, 42, 0.59);
+  background-color: rgba(255, 204, 33, 0.67);
   width: max-content;
 }
 .designer-heading {
@@ -82,6 +97,13 @@ img {
 }
 .contactlink:hover {
   text-decoration: none;
+  background-color: rgba(4, 66, 60, 1);
+  transition: 0.5s;
+}
+.primary-link:hover {
+  text-decoration: none;
+  background-color: rgba(4, 66, 60, 1);
+  transition: 0.5s;
 }
 
 p {
@@ -106,5 +128,8 @@ p {
   }
   .designer-link {
     margin-top: 30px;
+  }
+  .work-heading {
+    font-size: 45px;
   }
 }
