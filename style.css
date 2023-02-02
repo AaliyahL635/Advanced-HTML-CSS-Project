@@ -82,7 +82,7 @@ img {
   width: max-content;
 }
 .coder-link {
-  background-color: rgba(255, 204, 33, 0.67);
+  background-color: rgba(249, 202, 49, 0.54);
   width: max-content;
 }
 .designer-heading {
@@ -109,7 +109,7 @@ img {
 p {
   font-size: 20px;
   text-align: center;
-  color: white;
+  color: black;
   font-family: var(--primary-text);
 }
 
