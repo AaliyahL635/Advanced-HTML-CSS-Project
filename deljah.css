@@ -23,7 +23,8 @@ h3 {
   font-size: 75px;
   color: rgb(195, 160, 227);
 }
-p {
+p,
+li {
   font-size: 20px;
 }
 
@@ -36,7 +37,7 @@ div {
   font-family: var(--primary-text);
 }
 .title-page {
-  background-color: blueviolet;
+  background-color: #c180f4;
 }
 .intro {
   font-family: var(--primary-text);
@@ -47,8 +48,9 @@ div {
   text-align: center;
 }
 .designprocesslink {
-  background-color: blueviolet;
+  background-color: #c180f4;
   box-shadow: var(--box-shadow);
+  font-size: 22px;
 }
 
 .designprocesslink:hover {
@@ -60,7 +62,8 @@ div {
   max-width: 400px;
 }
 .summary {
-  background-color: rgb(195, 160, 227);
+  border-color: #c180f4;
+  border-width: 1px;
 }
 .journey {
   max-width: 900px;
